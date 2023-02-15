@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
+			"minor" : 5,
 			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 147.0, 202.0, 1216.0, 1076.0 ],
+		"rect" : [ 232.0, 62.0, 1216.0, 1076.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 321.0, 19.0, 231.0, 47.0 ],
+					"text" : "52       55     57   60      59       55     57 \nE         G      A - ^C        B        G       A\nAin't    no sunshine        when she's gone"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-32",
 					"linecount" : 2,
@@ -94,15 +106,15 @@
 					"patching_rect" : [ 219.00000673532486, 82.333336055278778, 100.0, 40.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 12, "obj-70", "multislider", "list", 22, 47, 58, 119, 65, 83, 97, 76 ]
+							"data" : [ 12, "obj-70", "multislider", "list", 52, 55, 57, 60, 59, 55, 57, 0 ]
 						}
 , 						{
 							"number" : 2,
-							"data" : [ 12, "obj-70", "multislider", "list", 83, 97, 65, 76, 22, 73, 47, 58 ]
+							"data" : [ 12, "obj-70", "multislider", "list", 52, 55, 57, 60, 59, 55, 57, 0 ]
 						}
 , 						{
 							"number" : 3,
-							"data" : [ 12, "obj-70", "multislider", "list", 83, 73, 22, 47, 58, 65, 97, 76 ]
+							"data" : [ 12, "obj-70", "multislider", "list", 52, 55, 57, 60, 59, 55, 57, 0 ]
 						}
  ]
 				}
@@ -141,7 +153,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 35.000001192092896, 449.333346724510193, 50.0, 62.0 ],
-					"text" : "108 97 22 83 47 76 73 58"
+					"text" : "52 55 57 60 59 55 57 0"
 				}
 
 			}
@@ -190,7 +202,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 50.166669070720673, 300.000008940696716, 273.0, 134.0 ],
+					"patching_rect" : [ 53.000000655651093, 298.000008940696716, 273.0, 134.0 ],
 					"setminmax" : [ 0.0, 127.0 ],
 					"setstyle" : 1,
 					"settype" : 0,
